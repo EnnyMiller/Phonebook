@@ -1,0 +1,14 @@
+C:\Projects\NewProject1\CodeChallenge\bin\Debug\net8.0\CodeChallenge.exe
+C:\Projects\NewProject1\CodeChallenge\bin\Debug\net8.0\CodeChallenge.deps.json
+C:\Projects\NewProject1\CodeChallenge\bin\Debug\net8.0\CodeChallenge.runtimeconfig.json
+C:\Projects\NewProject1\CodeChallenge\bin\Debug\net8.0\CodeChallenge.dll
+C:\Projects\NewProject1\CodeChallenge\bin\Debug\net8.0\CodeChallenge.pdb
+C:\Projects\NewProject1\CodeChallenge\obj\Debug\net8.0\CodeChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NewProject1\CodeChallenge\obj\Debug\net8.0\CodeChallenge.AssemblyInfoInputs.cache
+C:\Projects\NewProject1\CodeChallenge\obj\Debug\net8.0\CodeChallenge.AssemblyInfo.cs
+C:\Projects\NewProject1\CodeChallenge\obj\Debug\net8.0\CodeChallenge.csproj.CoreCompileInputs.cache
+C:\Projects\NewProject1\CodeChallenge\obj\Debug\net8.0\CodeChallenge.dll
+C:\Projects\NewProject1\CodeChallenge\obj\Debug\net8.0\refint\CodeChallenge.dll
+C:\Projects\NewProject1\CodeChallenge\obj\Debug\net8.0\CodeChallenge.pdb
+C:\Projects\NewProject1\CodeChallenge\obj\Debug\net8.0\CodeChallenge.genruntimeconfig.cache
+C:\Projects\NewProject1\CodeChallenge\obj\Debug\net8.0\ref\CodeChallenge.dll
