@@ -57,7 +57,7 @@ public class CodeChallenge
 }
 
 
-
+// Calculator
 public class Calculator
 {
     public int AddNumbers(int firstNumber, int secondNumber)
@@ -85,7 +85,7 @@ public class Calculator
     
 }
 
-
+//Inventory
 public class InventoryItem
 {
     public string Name;
@@ -178,22 +178,24 @@ class Inventory
     
 }
 
+
+//Notebook
 public class NoteManager
 {
-    private string _filePath; 
+    private string _filePath;
 
     public NoteManager(string filePath = "student_notes.txt")
-    { 
-        _filePath = filePath; 
-    }  
- 
+    {
+        _filePath = filePath;
+    }
+
     // Overwrites the file with a new note using StreamWriter
-    public void WriteNewNote() 
+    public void WriteNewNote()
     {
         Console.Write("Enter your note: ");
         string note = Console.ReadLine();
 
-        using (StreamWriter writer = new StreamWriter(_filePath, append: false)) 
+        using (StreamWriter writer = new StreamWriter(_filePath, append: false))
         {
             writer.WriteLine(note);
         }
@@ -203,7 +205,7 @@ public class NoteManager
     // Appends a new note using StreamWriter
     public void AppendNote()
     {
-        Console.Write("Enter a note to add: "); 
+        Console.Write("Enter a note to add: ");
         string note = Console.ReadLine();
 
         using (StreamWriter writer = new StreamWriter(_filePath, append: true))
@@ -213,13 +215,13 @@ public class NoteManager
 
         Console.WriteLine("Note appended successfully.");
     }
-    
+
     // Reads all notes line by line using StreamReader
     public void ReadNotes()
     {
         Console.WriteLine("\n--- All Notes ---");
 
-        if (File.Exists(_filePath))  
+        if (File.Exists(_filePath))
         {
             using (StreamReader reader = new StreamReader(_filePath))
             {
@@ -237,9 +239,9 @@ public class NoteManager
     }
 
     // Deletes the file
-    public void DeleteNotes() 
+    public void DeleteNotes()
     {
-        if (File.Exists(_filePath)) 
+        if (File.Exists(_filePath))
         {
             File.Delete(_filePath);
             Console.WriteLine("Notes deleted successfully.");
